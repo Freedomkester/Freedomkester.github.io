@@ -1,0 +1,131 @@
+html{
+    font-size:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin:0%;
+    background-color: rgb(240, 240, 223);
+}
+
+#nav{
+    background-color: black;
+    height: 4.7rem;
+    letter-spacing: 0.1rem;
+    font-size:1.6rem;
+    width: 100%;
+    
+    
+}
+#nav>h1{
+    color:white;
+    display: inline;
+    float:left;
+    margin-top:1rem;
+    margin-left:1.5rem;
+    font-size: 2rem;
+   
+    
+}
+ul{
+    display:inline;
+    
+}
+li{
+   
+    display:inline;
+    margin-right: 1rem;
+    margin-bottom:1rem;
+    
+}
+li>a{
+    color:white;
+    text-decoration: none;
+    padding:1rem;
+    float:right;
+    height:2.65rem;
+    
+}
+li>a:hover{
+    background-color: rgb(32, 31, 31);
+    color:orange;
+}
+
+#en{
+    color:orange;
+}
+form{
+    padding:2rem;
+    margin-left: 1.5rem;
+    margin-right:15rem;
+    font-size: 1.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+label{
+    display:block;
+}
+input,#msg{
+    box-sizing: border-box;
+    border:none;
+    display:block;
+    margin-top: 1rem;
+    margin-bottom:1.5rem;
+    padding:1.5rem;
+    width:65rem;
+    height:5rem;
+}
+#msg{
+    height: 15rem;
+}
+
+button{
+    display:block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    border:none;
+    color:white;
+    padding: 1rem;
+    margin-top: 2rem;
+    width: 10rem;
+    height: 5rem;
+    font-size: 1.6rem;
+}
+
+#S3one,#S3two,#S3three
+{
+    
+    width:33%;
+    height:25rem;
+    text-align:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2.5rem;
+    font-weight: bold;
+    /* background-color:black; */
+    color:white;
+    font-size:1.4rem;
+}
+#grp{
+    display: flex;
+    background-color:black;
+}
+#S3one>img,#S3two>img,#S3three>img
+{
+    margin-top:1.5rem;
+}
+.bind{ 
+    margin-top: 4rem;
+}
+
+footer{
+    clear:both;
+    text-align: center;
+    background-color: rgb(21, 20, 20);
+    color: white;
+    height:4rem;
+    padding:1.4%;
+    font-size:1.4rem;
+   
+}
+footer>p{
+    margin:auto;
+}
